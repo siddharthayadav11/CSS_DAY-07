@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.parent{
+    display:flex;
+    flex-wrap: wrap;
+    gap:20px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px white;
+    justify-content: center;
+    align-items: center;
+    padding:40px
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    padding:10px
+}
+img{
+    padding: 10px;
+    height:75px;
+    width:75px;
+}
+.kk{
+    display: flex;
+}
+
+.child1{
+    background-color: white;
+    width: 400px;
+    max-width: 400px;
+}
+.child2{
+    background-color:white;
+    width: 400px;
+    max-width: 400px;
+}
+.child3{
+    background-color:white;
+    width: 400px;
+    max-width: 400px;
+}
+.child4{
+    background-color:white;
+    width: 400px;
+    max-width: 400px;
+}
+.child5{
+    background-color:white;
+    width: 400px;
+    max-width: 400px;
+}
+.child6{
+    background-color:white;
+    width: 400px;
+    max-width: 400px;
+}
+.name{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.span{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.mat{
+    font-weight: 500;
+    font-size: 1rem;
+    padding:10px;
+}
+.end{
+    display:flex;
+    justify-content: space-between;
+    padding:0px 10px
+}
+.grey{
+    color:grey
+}
+.link{
+    color: blue;
+}
